@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+h3{
+  text-align: left;
+}
+.container-fluid{
+  padding: 0 13%;
+}
+.tittle{ position: absolute;
+top: 6%;
+left: 4%;
+color: #fff;
+
+}
+.first-container{
+  position: relative;
+}
+.smile-image{
+  width: 5%;
+
+}
+.indian-image-2{
+margin: 0;
+width: 9%;
+
+}
+.second-container{
+ font-family: Montserrat-black;
+  text-align: center;
+
+
+}
+.kurumi{
+ top: 110%;
+left: 0;
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+
+}
+.eren{
+  right:4%;
+  top: 3%;
+  position: absolute;
+  width: 9%;
+}
+.vageta{
+  width: 10%;
+}
+.kamehameha{
+  width: 7%;
+}
+.goku{
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 45%
+
+}
+
+.mountain-image{
+  position: absolute;
+  z-index: -1;
+
+}
+@media screen and (max-width:960px) {
+  .kurumi{
+    top: 180%;
+  }
+  .second-container{
+    color: black;
+
+  }
+}

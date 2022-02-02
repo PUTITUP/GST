@@ -1,0 +1,53 @@
+body {
+  background-color: #EDCDBB;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  background-color: #E3B7A0;
+  padding: 1% 11%;
+font-family: Montserrat-black;
+}
+
+/* title */
+.title-navbar {
+  margin-left: 500px;
+}
+
+.container-fluid {
+  padding: 0 12%;
+}
+
+.image{
+
+text-align: center;
+padding-bottom: 15px;
+}
+
+/* body */
+.body {
+  line-height: 1.8;
+
+}
+
+.body p {
+  padding: 1% 11%;
+  font-family: IBM Plex Sans Thai Looped;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.paragraph-list{
+  padding: 0 13% 2%;
+  font-family: 'Bubbler One', sans-serif-black;
+  font-weight: bolder;
+}
+
+
+
+
+/* footer */
+.footer{
+  padding-top:  5%;
+  text-align: center;
+  font-family: IBM Plex Sans Thai Looped
+}

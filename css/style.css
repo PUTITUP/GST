@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+.mountain {
+  position: absolute;
+  width: 100%;
+
+  margin: 0;
+}
+
+.navbar-header {
+  background-color: #96CEB4;
+}
+
+.indian-flag {
+  position: absolute;
+  z-index: 1;
+  width: 40%;
+  margin: 0;
+  left: 30%;
+}
+
+.cloud-2 {
+  top: 255%;
+  left: 13%;
+  z-index: 1;
+  position: absolute;
+  width: 10%;
+}
+
+.cloud-3 {
+  top: 400px;
+  left: 750px;
+  z-index: 1;
+  position: absolute;
+  width: 15%;
+}
+.bird{
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  top: 280px;
+  left: 510px;
+}
+.first-section {
+  position: relative;
+}
+
+.info{
+  text-align:center;
+   color:#fff;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 400px;
+}
+.infop{
+  color: #344CB7;
+  font-family: IBM Plex Sans Thai Looped;
+}
+.start{
+  color: #344CB7;
+  position: absolute;
+  z-index: 1;
+  top: 600px;
+  left: 500px;
+}
+.start .h1{
+  font-family: IBM Plex Sans Thai Looped;
+}
+@media screen and (max-width:900px) {
+  .mountain {
+    position: absolute;
+    width: 100%;
+      margin: 0;
+  }
+  .indian-flag {
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    margin: 0;
+    left: 30%;
+  }
+  .cloud-2 {
+    top: 155%;
+    left: 13%;
+    z-index: 1;
+    position: absolute;
+    width: 10%;
+  }
+
+  .cloud-3 {
+    top: 200%;
+    left: 60%;
+    z-index: 1;
+    position: absolute;
+    width: 15%;
+  }
+  .bird{
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    top: 150%;
+    left: 40%;
+  }
+  .first-section {
+    position: relative;
+  }
+
+  .info{
+    text-align:center;
+     color:#fff;
+    position: absolute;
+    z-index: 1;
+    top:70%;
+    left: 15%;
+  }
+
+  .infop{
+    color: grey;
+  }
+  .start{
+    color:grey;
+    position: absolute;
+    z-index: 1;
+    top: 220%;
+    left: 25%;
+    font-size: 0.1rem;
+  }
+.container-fluid{
+  padding-bottom: 50px;
+}
+
+
+}
